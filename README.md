@@ -13,6 +13,10 @@ This project is a responsive front-end webpage developed using **HTML**, **CSS**
 
 3. **Styling:**
    - A combination of traditional CSS and Bootstrap was used for styling, ensuring consistency and a smooth, responsive experience.
+  
+## Hosted Link
+https://ruchita-dalvi-frontend-project.vercel.app/
+
 
 ## How to Run This Project
 

@@ -8,7 +8,7 @@ This project is a responsive front-end webpage developed using **HTML**, **CSS**
    - The webpage is divided into separate React components to maintain a clean and organized structure. Each component is placed in its own file, making the codebase modular and easier to maintain. The file names clearly indicate which part of the page each component renders.
 
 2. **Responsiveness:**
-   - Bootstrap's \classes were utilized to ensure responsiveness across different devices.
+   - Bootstrap's classes were utilized to ensure responsiveness across different devices.
    - Additional custom CSS was used where necessary to adjust the layout for various screen sizes.
 
 3. **Styling:**

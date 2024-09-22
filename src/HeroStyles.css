@@ -1,0 +1,111 @@
+.hero {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    overflow: hidden;
+    border-bottom-left-radius: 50% 10%;
+    border-bottom-right-radius: 50% 10%;
+}
+
+img {
+    width: 100%;
+    object-fit: contains;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%; /* Adjust this value to move the text up or down */
+    left: 10%; /* Aligns the text to the right */
+    transform: translateY(-50%);
+    text-align: left; /* Text alignment */
+    color: white;
+}
+
+.hero-text h1 {
+    font-size: 56px;
+    font-family: 'Abhaya Libre, serif';
+    font-weight: 800;
+    margin: 0;
+}
+
+.hero-text p {
+    font-size: 18px; /* Adjust font size for smaller text */
+    font-family: 'Roboto, serif';
+    padding: 0.5rem 0 1.5rem 0;
+    line-height: 1.5; /* Adjust line height */
+    margin-bottom: 0%;
+}
+.formatted-text {
+    white-space: pre-line;
+    font-size: 18px;
+    font-family: 'Roboto, serif';
+    padding: 0.5rem 0 0.5rem 0;
+    line-height: 1.5;
+    color: white; /* Optional */
+}
+
+.btnClass {
+    text-decoration: none;
+    background: #333d55;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #fff;
+    display: inline-block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btnClass:hover {
+    transform: scale(1.1); /* Adjust scale on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+    .hero {
+        height: 50vh;
+    }
+
+    .hero-text {
+        left: 5%;
+    }
+
+    .hero-text h1 {
+        font-size: 6vw;
+    }
+
+    .hero-text p {
+        font-size: 3vw;
+    }
+
+    .btnClass {
+        font-size: 2.5vw;
+        padding: 0.5rem 1rem;
+    }
+}
+
+/* Media query for mobile phones */
+@media (max-width: 480px) {
+    .hero {
+        height: 40vh;
+    }
+
+    .hero-text h1 {
+        font-size: 5vw;
+    }
+
+    .hero-text p {
+        font-size: 2.5vw;
+        padding-bottom: 0%;
+        padding-top: 0%s;
+    }
+
+    .btnClass {
+        font-size: 2vw;
+        padding: 0.5rem 1rem;
+    }
+}
